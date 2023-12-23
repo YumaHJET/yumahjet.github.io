@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Atcoder入門 - 個になりたい有象無象</title>
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="header-title">
+        <h1 class="header-title-text">
+          <a href="/">個になりたい有象無象</a>
+        </h1>
+      </div>
+      <menu class="header-menu">
+        <ul>
+          <li><a href="/">Article</a></li>
+        </ul>
+      </menu>
+    </div>
+  </header>
+  <div class="container">
+    <main class="main">
+      <div class="article-info">
+        <h1 class="article-title">Atcoder入門</h1>
+        <p class="article-publishdate">投稿日 2023/10/19</p>
+        <p class="article-updateddate">最終更新日 2023/12/23</p>
+      </div>
+      <div class="article-content">
+        <h1 id="はじめに">はじめに</h1>
+<p>皆さんはAtcoder楽しんでますか？
+僕は楽しんでいます！今回の記事では、どのようにして僕が未経験から４ヶ月で緑コーダーになることができたのかについて書きたいと思います。※イキっていますが緑は弱いです。</p>
+<h2 id="atcoderって何知らない人向け">Atcoderって何？（知らない人向け）</h2>
+<p>Atcoderを知らない人のために軽くAtcoderについて説明したいと思います。Atcoderとは問題が与えられて、それに対して最適なアルゴリズムで殴る(実装する)オンラインゲームです。問題固有の性質を活用して解く問題なども多くあり、パズルゲーム的な面白さがあります。</p>
+<p>説明苦手なのであとはchokudaiさん(Atcoderの社長・✝赤コーダー✝)の記事を見て貰えば理解できると思います。</p>
+<h2 id="学んだアルゴリズムとか">学んだアルゴリズムとか</h2>
+<p>他の人たちもやっているので僕もやろうと思います。</p>
+<h3 id="理解度の目安">理解度の目安</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">理解度</th>
+<th style="text-align:right">目安</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:right">名前だけ知っているレベル。なんとかできるかどうか。</td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:right">たまに実装に戸惑うが基本的にググれば可能。</td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:right">理解している。実装もできる。</td>
+</tr>
+</tbody>
+</table>
+<h3 id="アルゴリズムごとに">アルゴリズムごとに</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">アルゴリズム</th>
+<th style="text-align:right">理解度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">二分探索</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">尺取り法</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">基礎的なDP</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">確率DP</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">区間DP</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td style="text-align:left">期待値DP</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">bitDP</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">bit全探索</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">セグ木</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">DFSとBFS</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">ダイクストラ法</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">MST(クラスカル法)</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">累積和</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td style="text-align:left">imos法</td>
+<td style="text-align:right">3</td>
+</tr>
+</tbody>
+</table>
+<p>緑色なのでまだたくさんのアルゴリズムは学んではいませんが、水色になる前にはもっとたくさんのアルゴリズムについて学びたいと思います。</p>
+<h2 id="やったこと">やったこと</h2>
+<p>・蟻本（難しすぎた）
+・典型90問ちょい埋め
+・EDPCをIくらいまで
+・茶色埋め（150問くらい）
+・緑色埋め(50問くらい)
+Atcoder始めたらまずA問題とB問題をほぼ全埋めしてプログラミング言語の基礎を固めて、その上で茶色を埋めていきました。その時には茶色くらいの実力はついていたと思います。そのあと、追加でEDPCをしたり、典型90問を使って追加で典型力をつけました。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;atcoder/all&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> mint <span style="color:#f92672">=</span> modint100000007;
+</span></span><span style="display:flex;"><span>rep(i, N){
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">++</span>i;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h1 id="終わりに">終わりに</h1>
+<p>最後まで読んでくださりありがとうございます。内容はペラペラだと思いますが、少しで役に立ってくれると嬉しいです。まだ、緑色の前半で停滞してしまっているので精進をして３ヶ月以内に水色を目指そうと思います。（入水する時の効率の良かった精進方法教えてね）
+では、ハッピーAtcoderライフを！</p>
+<h1 id="番外編実はメイン">番外編(実はメイン)</h1>
+<h2 id="コンテスト中に聞いている曲たち">コンテスト中に聞いている曲たち</h2>
+<h3 id="ドラマツルギー">ドラマツルギー</h3>
+<p>厨二病的なやつ？
+<a href="https://open.spotify.com/intl-ja/track/44i0yotEYW72i9QbpWcn6y?si=eedaf0d6102f4993">https://open.spotify.com/intl-ja/track/44i0yotEYW72i9QbpWcn6y?si=eedaf0d6102f4993</a></p>
+<h3 id="hoes-no-jutsu">Hoes No Jutsu</h3>
+<p>歌詞は18禁レベルだが、ノリがいいので脳死で聞くには心地がいい。
+<a href="https://open.spotify.com/intl-ja/track/4L655Y7DSQGLnB8iTqlmud?si=b6c77dd051344fa0">https://open.spotify.com/intl-ja/track/4L655Y7DSQGLnB8iTqlmud?si=b6c77dd051344fa0</a></p>
+<h3 id="specialz">SPECIALZ</h3>
+<p>まるで自分が特別かのように錯覚できる。天才になった感があって聞いてて楽しい。
+<a href="https://open.spotify.com/intl-ja/track/0GWNtMohuYUEHVZ40tcnHF?si=37c6318137874dbd">https://open.spotify.com/intl-ja/track/0GWNtMohuYUEHVZ40tcnHF?si=37c6318137874dbd</a></p>
+
+      </div>
+</main>
+<div class="sidemenu">
+  <div class="sidemenu-profile">
+    <div class="sidemenu-profile-icon">
+      <img src="/img/sampleicon.jpeg" alt="">
+    </div>
+    <div class="sidemenu-profile-name">
+      <p>YumaHJET</p>
+    </div>
+    <div class="sidemenu-profile-content">
+      <p>普通が嫌いな普通な人。元不登校。特にプロフィールに書くべきことはない。情報オリンピックとかCTFとかに手を出している。Twitter→<a
+          href="https://twitter.com/YumaHJET">@YumaHJET</a>
+      </p>
+    </div>
+  </div>
+  <p class="article-list-top">最近の記事</p>
+  <div class="article-list">
+    
+    <div class="article-list-item">
+      <a href="https://yumahjet.github.io/posts/page/">
+        <p class="article-list-title">Atcoder入門</p>
+        <div class="article-list-date">2023/10/19</div>
+        <p class="article-list-description">Atcoderの始め方を教えます。</p>
+      </a>
+    </div>
+    
+  </div>
+</div>
+</div>
+<footer class="footer">
+  <p class="footer-copyright">&copy;2024 YumaHJET</p>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.main-article-list-item {
+  padding: 20px 0;
+  border-bottom: 1px solid;
+}
+
+.main-article-list-item:first-child {
+  border-top: 1px solid;
+}
+
+.main-article-list-title {
+  font-size: 1.5rem;
+}

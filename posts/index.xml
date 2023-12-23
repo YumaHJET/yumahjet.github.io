@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 個になりたい有象無象</title>
+    <link>https://yumahjet.github.io/posts/</link>
+    <description>Recent content in Posts on 個になりたい有象無象</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 19 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yumahjet.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atcoder入門</title>
+      <link>https://yumahjet.github.io/posts/page/</link>
+      <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://yumahjet.github.io/posts/page/</guid>
+      <description>はじめに 皆さんはAtcoder楽しんでますか？ 僕は楽しんでいます！今回の記事では、どのようにして僕が未経験から４ヶ月で緑コーダーになることができたのかについて書きたいと思います。※イキっていますが緑は弱いです。&#xA;Atcoderって何？（知らない人向け） Atcoderを知らない人のために軽くAtcoderについて説明したいと思います。Atcoderとは問題が与えられて、それに対して最適なアルゴリズムで殴る(実装する)オンラインゲームです。問題固有の性質を活用して解く問題なども多くあり、パズルゲーム的な面白さがあります。&#xA;説明苦手なのであとはchokudaiさん(Atcoderの社長・✝赤コーダー✝)の記事を見て貰えば理解できると思います。&#xA;学んだアルゴリズムとか 他の人たちもやっているので僕もやろうと思います。&#xA;理解度の目安 理解度 目安 1 名前だけ知っているレベル。なんとかできるかどうか。 2 たまに実装に戸惑うが基本的にググれば可能。 3 理解している。実装もできる。 アルゴリズムごとに アルゴリズム 理解度 二分探索 3 尺取り法 2 基礎的なDP 3 確率DP 2 区間DP 2 期待値DP 3 bitDP 3 bit全探索 3 セグ木 3 DFSとBFS 3 ダイクストラ法 3 MST(クラスカル法) 3 累積和 3 imos法 3 緑色なのでまだたくさんのアルゴリズムは学んではいませんが、水色になる前にはもっとたくさんのアルゴリズムについて学びたいと思います。&#xA;やったこと ・蟻本（難しすぎた） ・典型90問ちょい埋め ・EDPCをIくらいまで ・茶色埋め（150問くらい） ・緑色埋め(50問くらい) Atcoder始めたらまずA問題とB問題をほぼ全埋めしてプログラミング言語の基礎を固めて、その上で茶色を埋めていきました。その時には茶色くらいの実力はついていたと思います。そのあと、追加でEDPCをしたり、典型90問を使って追加で典型力をつけました。&#xA;#include &amp;lt;atcoder/all&amp;gt; using mint = modint100000007; rep(i, N){ ++i; } 終わりに 最後まで読んでくださりありがとうございます。内容はペラペラだと思いますが、少しで役に立ってくれると嬉しいです。まだ、緑色の前半で停滞してしまっているので精進をして３ヶ月以内に水色を目指そうと思います。（入水する時の効率の良かった精進方法教えてね） では、ハッピーAtcoderライフを！&#xA;番外編(実はメイン) コンテスト中に聞いている曲たち ドラマツルギー 厨二病的なやつ？ https://open.</description>
+    </item>
+  </channel>
+</rss>
